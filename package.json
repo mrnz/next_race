@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm i && ./node_modules/.bin/grunt"
+    "start": "./node_modules/.bin/grunt"
   },
   "author": "",
   "license": "ISC",
