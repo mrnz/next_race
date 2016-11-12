@@ -1,5 +1,5 @@
 .widget {
-	background-color: #333;
+  background-color: #333;
   border-color: #333;
   color: #fff;
   font-size: 11px;
@@ -12,34 +12,34 @@
   color: inherit;
   font-size: inherit;
   vertical-align: middle;
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-position: 10px;  
 }
 
 .widget__header.widget__header--IE {
-	background-image: url('./../img/flags/ie.png');
+  background-image: url('./../img/flags/ie.png');
 }
 
 .widget__header.widget__header--GB{
-	background-image: url('./../img/flags/gb.png');
+  background-image: url('./../img/flags/gb.png');
 }
 
 .widget__title{
-	width: 100%;
-	width: 100%;
+  width: 100%;
+  width: 100%;
   padding-left: 20px;
   box-sizing: border-box;
 }
 
 .widget__body{
-	padding: 12px 8px 8px;
-	position: relative;
+  padding: 12px 8px 8px;
+  position: relative;
 }
   
 .widget__flag {
-	position: relative;
-	top: 2px;
-	width: 14px;
+  position: relative;
+  top: 2px;
+  width: 14px;
   height: 11px;
   margin-left: 1px;
   margin-right: 4px;
@@ -50,26 +50,26 @@
 }
 
 .widget__list{
-	padding: 8px;	
-	vertical-align: middle;
+  padding: 8px; 
+  vertical-align: middle;
 }
 
 .widget__table{
-	background-color: white;
-	color: #444;
-	display: table;
-	width: 100%
+  background-color: white;
+  color: #444;
+  display: table;
+  width: 100%
 }
 
 .widget__tablerow{
-	height: 37px;
-	width: 100%;
-	display: table-row;
+  height: 37px;
+  width: 100%;
+  display: table-row;
 }
 
 .widget__racetype{
-	display: inline-block;
-	margin-top: -3px;
+  display: inline-block;
+  margin-top: -3px;
   width: 30px;
   height: 18px;
   background-color: transparent;
@@ -81,47 +81,47 @@
 }
 
 .racetypeG{
-	background-image: url('./../img/race-types/race-type-G.svg');
+  background-image: url('./../img/race-types/race-type-G.svg');
 }
 
 .racetypeD{
-	background-image: url('./../img/race-types/race-type-D.svg');
+  background-image: url('./../img/race-types/race-type-D.svg');
 }
 
 .racetypeJ{
-	background-image: url('./../img/race-types/race-type-J.svg');
+  background-image: url('./../img/race-types/race-type-J.svg');
 }
 
 .racetypeT{
-	background-image: url('./../img/race-types/race-type-T.svg');
+  background-image: url('./../img/race-types/race-type-T.svg');
 }
 
 .widget__tablecell{
-	display: table-cell;
-	padding: 8px 4px;
-	line-height: 1.23;
+  display: table-cell;
+  padding: 8px 4px;
+  line-height: 1.23;
   text-align: left;
   vertical-align: middle;
   border-top: 1px solid #d9d9d9;
-}	
+} 
 
 .widget__tablecell--silk{
-	width: 20px;
+  width: 20px;
 }
 
 .widget__silk{
-	width: 21px;
-	height: 20px;	
-	background-size: 100% auto;
+  width: 21px;
+  height: 20px; 
+  background-size: 100% auto;
   background-repeat: no-repeat;
   vertical-align: middle;
   display: inline-block;
 }
 
 .widget__odds{
-	box-sizing: border-box;
+  box-sizing: border-box;
   display: inline-block;
-	width: 36px;
+  width: 36px;
   padding-left: 0;
   padding-right: 0;
   border: 1px solid #f2c71c;

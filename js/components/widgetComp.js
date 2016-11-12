@@ -5,9 +5,9 @@ angular.module('app').component('widget', {
   },
   controller: function() {
 
-  	this.oddsClicked = function ( race_id ) {
-  		window.location.href = "http://www.racebets.com/bet/"+race_id;
-  	};
+    this.oddsClicked = function ( race_id ) {
+      window.location.href = "http://www.racebets.com/bet/"+race_id;
+    };
 
   }
 });

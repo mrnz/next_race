@@ -1,52 +1,52 @@
 body{
-	font-family: Tahoma,Geneva,Kalimati,sans-serif;
+  font-family: Tahoma,Geneva,Kalimati,sans-serif;
 }
 
 .wrapper{
-	width: 250px;
-	margin: 0 auto;
+  width: 250px;
+  margin: 0 auto;
 }
 
 .wrapper > *{
-	margin-top: 20px;
-	display: block;
+  margin-top: 20px;
+  display: block;
 }
 
 .float-rigth{
-	float: right;
+  float: right;
 }
 
 .separator{
-	margin-bottom: 0px;
+  margin-bottom: 0px;
   margin-top: 10px;
 }
 
 .filters{
-	width: 100%;
+  width: 100%;
 }
 
 .filters button{
-	width: 25%;
-	height: 30px;
-	border-radius: 0;
-	border-left: 1px solid #333;
-	border-top: 1px solid #333;
-	border-bottom: 1px solid #333;
-	border-right: 0px solid;
-	cursor: pointer;
-	outline: 0px solid;
+  width: 25%;
+  height: 30px;
+  border-radius: 0;
+  border-left: 1px solid #333;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  border-right: 0px solid;
+  cursor: pointer;
+  outline: 0px solid;
 }
 
 .filters button:last-child{
-	border-radius: 0px 4px 4px 0px;
-	border-right: 1px solid #333;
+  border-radius: 0px 4px 4px 0px;
+  border-right: 1px solid #333;
 }
 
 .filters button:first-child{
-	border-radius: 4px 0px 0px 4px;
+  border-radius: 4px 0px 0px 4px;
 }
 
 .filters .active{
-	background-color: black;
-	color: white;
+  background-color: black;
+  color: white;
 }
