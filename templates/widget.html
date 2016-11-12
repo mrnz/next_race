@@ -1,0 +1,48 @@
+<div class="widget" ng-if="$ctrl.nextRace">
+	<div class="widget__header widget__header--{{$ctrl.nextRace.event.country}}">
+		
+		<h3 class="widget__title ">
+			<span>{{$ctrl.nextRace.event.title}}</span>
+			<span class="float-rigth">{{ $ctrl.nextRace.post_time | kickoff }} </span>
+		</h3>
+
+		<hr class="separator">
+
+	</div>
+	
+	<div class="widget__body">
+			
+			<span>{{$ctrl.nextRace.runners.length}} runners</span>
+			<span>| {{$ctrl.nextRace.distance}} m</span>
+			<span>| {{$ctrl.nextRace.purse.amount}} {{$ctrl.nextRace.purse.currency}}</span>
+			<span class="widget__racetype racetype{{$ctrl.nextRace.race_type}} float-rigth"></span>
+
+	</div>
+
+	<div class="widget__list">
+		<ul class="widget__table">
+			<li class="widget__tablerow" ng-repeat="runner in $ctrl.nextRace.runners">
+				
+				<div ng-if=" runner.silk != '' " 
+						class="widget__tablecell widget__tablecell--silk">
+						
+						<span style="background-image: url('/img/silks/{{runner.silk}}');"
+							class="widget__silk"></span>
+
+				</div>
+				
+				<div class="widget__tablecell widget__tablecell--runner">
+					<span class="widget__runner">{{runner.name}}</span>
+				</div>
+
+				<div class="widget__tablecell widget__tablecell--odds">
+					
+					<button ng-click="$ctrl.oddsClicked($ctrl.nextRace.id_race)" 
+									class="widget__odds float-rigth">{{runner.odds}}</button>	
+
+				</div>
+			
+			</li>
+		</ul>
+	</div>
+</div>
